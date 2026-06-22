@@ -157,7 +157,6 @@ nav a:hover{
 .feature-card{
     /* width: 50rem; */
     width:100%;
-    max-width:50rem;
 }
 
 .features-section::before{
