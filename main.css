@@ -155,7 +155,9 @@ nav a:hover{
 }
 
 .feature-card{
-    width: 50rem;
+    /* width: 50rem; */
+    width:100%;
+    max-width:50rem;
 }
 
 .features-section::before{
@@ -398,6 +400,9 @@ nav a:hover{
     .feature-card{
         flex-direction:column;
         text-align:center;
+        width:100%;
+        max-width:100%;
+        padding:25px;
     }
 
     .feature-number{
@@ -407,7 +412,8 @@ nav a:hover{
 }
 
 #LogoPic{
-    width: 300px;
+    /* width: 300px; */
+    width:min(300px,80vw);
 }
 
 .site-footer {
