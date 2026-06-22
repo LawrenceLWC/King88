@@ -154,6 +154,10 @@ nav a:hover{
     padding:120px 8%;
 }
 
+.feature-card{
+    width: 50rem;
+}
+
 .features-section::before{
     content:"";
     position:absolute;
@@ -186,6 +190,7 @@ nav a:hover{
     display:flex;
     flex-direction:column;
     gap:25px;
+    align-items: center;
 }
 
 .feature-card{
